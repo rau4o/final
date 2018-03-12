@@ -7,11 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3AF4916D00A38FC462882E48 /* Pods_gitHub.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C33E00C40CAA760B7DF3D8D5 /* Pods_gitHub.framework */; };
 		AE6B04A32056424900EC8068 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6B04A22056424900EC8068 /* AppDelegate.swift */; };
 		AE6B04A52056424900EC8068 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6B04A42056424900EC8068 /* ViewController.swift */; };
 		AE6B04A82056424900EC8068 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6B04A62056424900EC8068 /* Main.storyboard */; };
 		AE6B04AA2056424900EC8068 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE6B04A92056424900EC8068 /* Assets.xcassets */; };
 		AE6B04AD2056424900EC8068 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6B04AB2056424900EC8068 /* LaunchScreen.storyboard */; };
+		AE6B04B920566FF700EC8068 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE6B04B820566FF700EC8068 /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,12 @@
 		AE6B04A92056424900EC8068 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE6B04AC2056424900EC8068 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE6B04AE2056424900EC8068 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE6B04B620566FF600EC8068 /* gitHub-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gitHub-Bridging-Header.h"; sourceTree = "<group>"; };
+		AE6B04B720566FF700EC8068 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		AE6B04B820566FF700EC8068 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		C33E00C40CAA760B7DF3D8D5 /* Pods_gitHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gitHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3CA2A1190A7931187B89B25 /* Pods-gitHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gitHub.release.xcconfig"; path = "Pods/Target Support Files/Pods-gitHub/Pods-gitHub.release.xcconfig"; sourceTree = "<group>"; };
+		D4D7A2EA83BD292D12571B84 /* Pods-gitHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gitHub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gitHub/Pods-gitHub.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AF4916D00A38FC462882E48 /* Pods_gitHub.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,8 +47,11 @@
 		AE6B04962056424900EC8068 = {
 			isa = PBXGroup;
 			children = (
+				AE6B04B520566F7F00EC8068 /* Supporting files */,
 				AE6B04A12056424900EC8068 /* gitHub */,
 				AE6B04A02056424900EC8068 /* Products */,
+				E044E535E5DBDAE1C531F91D /* Pods */,
+				B9B5494B9E5782D6DA50A630 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +76,33 @@
 			path = gitHub;
 			sourceTree = "<group>";
 		};
+		AE6B04B520566F7F00EC8068 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				AE6B04B720566FF700EC8068 /* SWRevealViewController.h */,
+				AE6B04B820566FF700EC8068 /* SWRevealViewController.m */,
+				AE6B04B620566FF600EC8068 /* gitHub-Bridging-Header.h */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		B9B5494B9E5782D6DA50A630 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C33E00C40CAA760B7DF3D8D5 /* Pods_gitHub.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E044E535E5DBDAE1C531F91D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D4D7A2EA83BD292D12571B84 /* Pods-gitHub.debug.xcconfig */,
+				C3CA2A1190A7931187B89B25 /* Pods-gitHub.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AE6B04B12056424900EC8068 /* Build configuration list for PBXNativeTarget "gitHub" */;
 			buildPhases = (
+				9850C82B98FA435DA4E11C30 /* [CP] Check Pods Manifest.lock */,
 				AE6B049B2056424900EC8068 /* Sources */,
 				AE6B049C2056424900EC8068 /* Frameworks */,
 				AE6B049D2056424900EC8068 /* Resources */,
+				522B21CBF9F8D49C1D97BB1E /* [CP] Embed Pods Frameworks */,
+				2762FF02E2BFDA2461F5F808 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -96,6 +138,7 @@
 				TargetAttributes = {
 					AE6B049E2056424900EC8068 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -131,6 +174,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2762FF02E2BFDA2461F5F808 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gitHub/Pods-gitHub-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		522B21CBF9F8D49C1D97BB1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-gitHub/Pods-gitHub-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gitHub/Pods-gitHub-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9850C82B98FA435DA4E11C30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-gitHub-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		AE6B049B2056424900EC8068 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -138,6 +241,7 @@
 			files = (
 				AE6B04A52056424900EC8068 /* ViewController.swift in Sources */,
 				AE6B04A32056424900EC8068 /* AppDelegate.swift in Sources */,
+				AE6B04B920566FF700EC8068 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,13 +376,17 @@
 		};
 		AE6B04B22056424900EC8068 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4D7A2EA83BD292D12571B84 /* Pods-gitHub.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = gitHub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = APS.gitHub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Supporting files/gitHub-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -286,13 +394,16 @@
 		};
 		AE6B04B32056424900EC8068 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3CA2A1190A7931187B89B25 /* Pods-gitHub.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = gitHub/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = APS.gitHub;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Supporting files/gitHub-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
