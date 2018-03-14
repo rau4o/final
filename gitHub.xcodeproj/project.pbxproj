@@ -18,6 +18,8 @@
 		AE6B04C4205728AC00EC8068 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6B04C3205728AC00EC8068 /* GradientView.swift */; };
 		AE6B04CA20573FD400EC8068 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6B04C920573FD400EC8068 /* Constants.swift */; };
 		AE6B04CC2057497A00EC8068 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6B04CB2057497A00EC8068 /* LoginVC.swift */; };
+		AE6B04CE2057AC9600EC8068 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6B04CD2057AC9600EC8068 /* CreateAccountVC.swift */; };
+		AE6B04D120597AE300EC8068 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6B04D020597AE300EC8068 /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,8 @@
 		AE6B04C3205728AC00EC8068 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		AE6B04C920573FD400EC8068 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		AE6B04CB2057497A00EC8068 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		AE6B04CD2057AC9600EC8068 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		AE6B04D020597AE300EC8068 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		C33E00C40CAA760B7DF3D8D5 /* Pods_gitHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gitHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3CA2A1190A7931187B89B25 /* Pods-gitHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gitHub.release.xcconfig"; path = "Pods/Target Support Files/Pods-gitHub/Pods-gitHub.release.xcconfig"; sourceTree = "<group>"; };
 		D4D7A2EA83BD292D12571B84 /* Pods-gitHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gitHub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gitHub/Pods-gitHub.debug.xcconfig"; sourceTree = "<group>"; };
@@ -73,6 +77,7 @@
 		AE6B04A12056424900EC8068 /* gitHub */ = {
 			isa = PBXGroup;
 			children = (
+				AE6B04CF20597AAB00EC8068 /* Services */,
 				AE6B04C820573F9C00EC8068 /* Utillities */,
 				AE6B04BD2056775E00EC8068 /* Model */,
 				AE6B04BB2056774700EC8068 /* View */,
@@ -103,6 +108,7 @@
 				AE6B04BE2056779800EC8068 /* ChatVC.swift */,
 				AE6B04C02056799E00EC8068 /* ChannelVC.swift */,
 				AE6B04CB2057497A00EC8068 /* LoginVC.swift */,
+				AE6B04CD2057AC9600EC8068 /* CreateAccountVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -128,6 +134,14 @@
 				AE6B04C920573FD400EC8068 /* Constants.swift */,
 			);
 			path = Utillities;
+			sourceTree = "<group>";
+		};
+		AE6B04CF20597AAB00EC8068 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AE6B04D020597AE300EC8068 /* AuthService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		B9B5494B9E5782D6DA50A630 /* Frameworks */ = {
@@ -285,6 +299,8 @@
 			files = (
 				AE6B04C12056799E00EC8068 /* ChannelVC.swift in Sources */,
 				AE6B04BF2056779800EC8068 /* ChatVC.swift in Sources */,
+				AE6B04CE2057AC9600EC8068 /* CreateAccountVC.swift in Sources */,
+				AE6B04D120597AE300EC8068 /* AuthService.swift in Sources */,
 				AE6B04CC2057497A00EC8068 /* LoginVC.swift in Sources */,
 				AE6B04C4205728AC00EC8068 /* GradientView.swift in Sources */,
 				AE6B04A32056424900EC8068 /* AppDelegate.swift in Sources */,
