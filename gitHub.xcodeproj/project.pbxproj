@@ -24,6 +24,7 @@
 		AE6B04D52059AF2300EC8068 /* UserDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6B04D42059AF2300EC8068 /* UserDataService.swift */; };
 		AE6B04D72059E0BC00EC8068 /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6B04D62059E0BC00EC8068 /* AvatarPickerVC.swift */; };
 		AE6B04D92059E67700EC8068 /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6B04D82059E67700EC8068 /* AvatarCell.swift */; };
+		AE6B04DB205B034800EC8068 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6B04DA205B034800EC8068 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		AE6B04D42059AF2300EC8068 /* UserDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataService.swift; sourceTree = "<group>"; };
 		AE6B04D62059E0BC00EC8068 /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		AE6B04D82059E67700EC8068 /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
+		AE6B04DA205B034800EC8068 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		C33E00C40CAA760B7DF3D8D5 /* Pods_gitHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gitHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3CA2A1190A7931187B89B25 /* Pods-gitHub.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gitHub.release.xcconfig"; path = "Pods/Target Support Files/Pods-gitHub/Pods-gitHub.release.xcconfig"; sourceTree = "<group>"; };
 		D4D7A2EA83BD292D12571B84 /* Pods-gitHub.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gitHub.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gitHub/Pods-gitHub.debug.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +130,7 @@
 				AE6B04C3205728AC00EC8068 /* GradientView.swift */,
 				AE6B04D22059982A00EC8068 /* RoundedButton.swift */,
 				AE6B04D82059E67700EC8068 /* AvatarCell.swift */,
+				AE6B04DA205B034800EC8068 /* CircleImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -312,6 +315,7 @@
 				AE6B04C12056799E00EC8068 /* ChannelVC.swift in Sources */,
 				AE6B04D72059E0BC00EC8068 /* AvatarPickerVC.swift in Sources */,
 				AE6B04D32059982A00EC8068 /* RoundedButton.swift in Sources */,
+				AE6B04DB205B034800EC8068 /* CircleImage.swift in Sources */,
 				AE6B04BF2056779800EC8068 /* ChatVC.swift in Sources */,
 				AE6B04D52059AF2300EC8068 /* UserDataService.swift in Sources */,
 				AE6B04CE2057AC9600EC8068 /* CreateAccountVC.swift in Sources */,
